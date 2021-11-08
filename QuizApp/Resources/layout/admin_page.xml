@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    >
+
+    <RelativeLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+        android:padding="10dp">
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv1"
+        android:textSize="25sp"
+        android:text="Welcome Admin Area!!!"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dp" />
+        <Button
+        android:id="@+id/b1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add New Question"
+        android:layout_below="@id/tv1"
+        android:layout_marginTop="17dp"
+            android:textColor="@color/white"					
+		android:background="@drawable/roundbutton"/>
+        <Button
+        android:id="@+id/b2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View All Question"
+        android:layout_below="@id/b1"
+        android:layout_marginTop="17dp" 
+            android:textColor="@color/white"					
+		android:background="@drawable/roundbutton"/>
+        <Button
+        android:id="@+id/b3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete Question"
+        android:layout_below="@id/b2"
+        android:layout_marginTop="17dp" 
+            android:textColor="@color/white"					
+		android:background="@drawable/roundbutton"/>
+        <Button
+        android:id="@+id/b4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Log Out"
+        android:layout_below="@id/b3"
+        android:layout_marginTop="17dp" 
+            android:textColor="@color/white"					
+		android:background="@drawable/roundbutton"/>        
+    </RelativeLayout>
+
+</ScrollView>
